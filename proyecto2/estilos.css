@@ -1,0 +1,48 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.container {
+  display: flex;
+  height: 100vh;
+}
+.sidebar {
+  width: 250px;
+  background: #f1f1f1;
+  padding: 20px;
+}
+.search-bar {
+  width: 100%;
+  padding: 5px;
+  margin: 10px 0;
+}
+.content {
+  flex: 1;
+  padding: 20px;
+  background: #ffffff;
+  overflow-y: auto;
+}
+.historial-dia {
+  margin-bottom: 20px;
+}
+.entrada {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+.favicon {
+  margin-right: 10px;
+}
+.info {
+  flex-grow: 1;
+}
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.actions button {
+  margin-left: 10px;
+}

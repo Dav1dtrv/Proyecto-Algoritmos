@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+}
+.sidebar {
+    width: 250px;
+    background: #f4f4f4;
+    padding: 10px;
+}
+.content {
+    flex: 1;
+    padding: 20px;
+}
+.historial-dia {
+    margin-bottom: 20px;
+}
+.entrada {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}

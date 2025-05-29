@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Historial</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<div class="container">
+<aside class="sidebar">
+    <h2>Historial</h2>
+    <input type="date" id="filtroFechaInput" class="search-bar">
+    <nav>
+        <ul>
+            <li class="activo">📋 Todo</li>
+            <li>🕓 Cerradas recientemente</li>
+            <li>🖥️ Pestañas de otros dispositivos</li>
+        </ul>
+    </nav>
+</aside>
+<main class="content">
+<div class="top-bar">
+    <span>Todo</span>
+    <div class="actions">
+        <button id="filtrarFecha">📅 Filtrar por fecha</button>
+        <button id="exportarDatos">⇩ Exportar datos</button>
+        <button id="eliminarDatos">🗑 Eliminar datos</button>
+    </div>
+</div>
+<section class='historial-dia' data-fecha='2025-05-27'>
+<h3>Tue May 27 19:02:33 2025</h3>
+<div class='entrada'>
+<span class='favicon'>🌐</span>
+<div class='info'>
+<p><strong>github.com</strong></p>
+<small>Visitas: 1</small>
+</div></div>
+<div class='entrada'>
+<span class='favicon'>🌐</span>
+<div class='info'>
+<p><strong>google.com</strong></p>
+<small>Visitas: 1</small>
+</div></div>
+<div class='entrada'>
+<span class='favicon'>🌐</span>
+<div class='info'>
+<p><strong>openai.com</strong></p>
+<small>Visitas: 3</small>
+</div></div>
+</section>
+</main>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
